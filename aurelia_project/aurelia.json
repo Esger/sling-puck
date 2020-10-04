@@ -85,7 +85,12 @@
             "name": "aurelia-testing",
             "env": "dev"
           },
-          "text"
+          "text",
+          {
+            "name": "planck-js",
+            "path": "../node_modules/planck-js/dist",
+            "main": "planck.js"
+          }
         ]
       }
     ],
