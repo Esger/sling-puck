@@ -1,11 +1,14 @@
 import { inject } from 'aurelia-framework';
-import { PlanckJs } from 'planck-js';
+import { RenderService } from 'services/render-service';
 
+@inject(RenderService)
 export class WorldCustomElement {
-  constructor() {
-    this.message = 'Sling|Puck';
+  constructor(renderservice) {
+    this.gameTitle = 'Sling|Puck';
+    this._renderService = renderservice;
   }
   attached() {
-    console.log('yo');
+    this._renderService.start();
   }
+
 }

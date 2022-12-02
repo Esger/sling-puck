@@ -10,7 +10,8 @@
   "dependencies": {
     "aurelia-animator-css": "^1.0.4",
     "aurelia-bootstrapper": "^2.3.3",
-    "planck-js": "^0.3.22"
+    "planck-js": "^0.3.22",
+    "planck-renderer": "^2.2.0"
   },
   "devDependencies": {
     "aurelia-cli": "^1.3.0",
